@@ -1,0 +1,29 @@
+{
+  "name": "fourgetter",
+  "version": "1.0.0",
+  "description": "Grabs data and puts it in your database.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nefarious-Chicken/fourgetter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nefarious-Chicken/fourgetter/issues"
+  },
+  "homepage": "https://github.com/Nefarious-Chicken/fourgetter#readme",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "morgan": "^1.6.1",
+    "mysql": "^2.9.0",
+    "node-foursquare-venues": "^1.1.0",
+    "nodemon": "^1.7.1",
+    "request": "^2.65.0",
+    "sequelize": "^3.12.1"
+  }
+}

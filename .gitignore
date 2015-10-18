@@ -1,0 +1,8 @@
+### node etc ###
+
+# Logs
+logs
+*.log
+
+# Node Modules
+node_modules/
